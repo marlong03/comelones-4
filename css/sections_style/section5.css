@@ -1,0 +1,125 @@
+.cuadro {
+  width: 240px;
+  height: 320px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #2b2b33;
+}
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  color: #e69020;
+  letter-spacing: 5px;
+}
+p {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+.subir {
+  padding: 7px 17px;
+  background-color: #e69020;
+  font-size: 30px;
+  font-family: 'Bangers', cursive;
+  color: black;
+  margin: auto;
+  height: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 100;
+  position: fixed;
+  left: 10px;
+  bottom: 40px;
+}
+.subir a {
+  color: black;
+}
+.subir:active {
+  background-color: black ;
+}
+.subir:active a {
+  color: #e69020;
+}
+.section5 {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  position: relative;
+  z-index: 40;
+  height: 100%;
+  background: linear-gradient(transparent, #0c0c0c, transparent);
+}
+.section5--paragraph {
+  text-align: center;
+  position: relative;
+  z-index: 40;
+}
+.section5--paragraph h1 {
+  margin: 30px 0;
+}
+.section5--paragraph p {
+  margin-bottom: 20px;
+}
+.section5--paragraph span {
+  color: #e69020;
+  font-size: 17px;
+  font-weight: 900;
+}
+.section5--paragraph iframe {
+  width: 80%;
+  height: 400px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+.section5--paragraph .botones {
+  margin-bottom: 25px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section5--paragraph .botones a {
+  margin-top: 10px;
+  padding: 10px 35px;
+  color: white;
+  background-color: #000000;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  border: none;
+  border-radius: 20px;
+  border: 2px solid white;
+  position: relative;
+  z-index: 20;
+  text-decoration: none;
+}
+.section5--paragraph .botones a:hover {
+  border: 2px solid #e69020;
+}
+.section5--paragraph .botones a img {
+  width: 20px;
+}
+.section5--image {
+  filter: brightness(60%);
+  position: absolute;
+  width: 90%;
+}
+.section5--image_fond {
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+  width: 96%;
+}
+.section5--image_fond .cuadra {
+  width: 500px;
+  height: 150px;
+  transform: rotate(10deg);
+  background-color: #d8d8d8;
+  margin-top: 400px;
+  filter: blur(3px);
+}

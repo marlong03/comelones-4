@@ -1,0 +1,73 @@
+@import url(./vars.less);
+.section3{
+    .flexbox(none,center);
+    flex-direction: column;
+    &--paragraph{
+        padding:40px 30px;
+        .flexbox(center,center);
+        flex-direction: column; 
+        max-width:800px;
+        h1{
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 30px;
+            
+        }
+        
+
+        h2{
+            font-family: @font2;
+            color:#e69020;
+        }
+    }
+    &_images{
+       flex-wrap: wrap;
+       .flexbox(center , none);//cambio ult hora
+       &-container{ 
+            background-color: #5e5e7aab;
+            margin:0  50px 50px 50px ;
+            .cuadro;
+            h1{
+                font-size: 120px;
+                position: relative;
+                z-index: 10;
+                margin:20px;
+            }
+            img{
+                width:inherit;
+                position: absolute;
+                border-radius: 5px;
+                object-fit: cover;
+                height:inherit;
+                opacity:.3;
+            }
+            p{
+                position: relative;
+                z-index: 10;
+                color:white;
+            }
+            p span{
+                font-weight: 900;
+                font-size: 17px;
+                color:#ffae44;
+            }
+            input{
+                margin-top: 10px;
+                padding:10px 35px;
+                color:white;
+                background-color: #000000;
+                font-family: @font2;
+                font-weight: 800;
+                border:none;
+                border-radius: 20px;
+                border:2px solid white;
+                position: relative;
+                z-index:20;
+                &:hover{
+                border:2px solid #e69020;
+                }
+            }  
+        }
+    }
+}

@@ -1,0 +1,125 @@
+.cuadro {
+  width: 240px;
+  height: 320px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #2b2b33;
+}
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  color: #e69020;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px 3px #2b2b33;
+}
+p {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+.subir {
+  padding: 7px 17px;
+  background-color: #e69020;
+  font-size: 30px;
+  font-family: 'Bangers', cursive;
+  color: black;
+  margin: auto;
+  height: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 100;
+  position: fixed;
+  left: 10px;
+  bottom: 40px;
+}
+.subir a {
+  color: black;
+}
+.subir:active {
+  background-color: black ;
+}
+.subir:active a {
+  color: #e69020;
+}
+.section2 .fondo {
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+  position: absolute;
+  width: 80vw;
+}
+.section2 .fondo--cuadrado {
+  width: 400px;
+  height: 200px;
+  background-color: #e69020;
+  transform: rotate(45deg);
+  border-radius: 10px;
+  margin-top: 50px;
+  filter: blur(1px);
+  position: static;
+}
+.section2 .fondo--cuadrado2 {
+  width: 350px;
+  height: 370px;
+  background-color: #aaaaaa;
+  transform: rotate(30deg);
+  border-radius: 20%;
+  margin-top: 100px;
+  filter: blur(3px);
+}
+.section2--principal {
+  position: relative;
+  z-index: 10;
+  padding: 60px;
+  display: flex;
+}
+.section2--principal img {
+  width: 300px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.section2--principal .menu-comidas {
+  margin: 20px 30px;
+  max-width: 400px;
+  text-align: center;
+  background-color: rgba(92, 92, 92, 0.246);
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(17, 17, 17, 0.678);
+}
+.section2--principal .menu-comidas h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  color: #e69020;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+.section2--principal .menu-comidas p {
+  font-weight: 900 !important;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 30px;
+}
+.section2--principal .menu-comidas a {
+  padding: 10px 35px;
+  color: white;
+  background-color: #000000;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  border: none;
+  border-radius: 20px;
+  border: 2px solid white;
+  position: relative;
+  z-index: 20;
+  text-decoration: none;
+}
+.section2--principal .menu-comidas a:hover {
+  border: 2px solid #e69020;
+}

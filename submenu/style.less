@@ -1,0 +1,121 @@
+@import url(../less/sections_style/vars.less);
+@import url(../less/sections_style/header.less);
+@import url(../less/section_menu/section1.less);
+@import url(../less/sections_style/footer.less);
+.section1{
+    background: url(../src/images/comelonesfhotos/fondocomelones.png);
+}
+.subir{
+    padding:7px 17px;
+    background-color: #e69020;
+    font-size: 30px;
+    font-family: @fontHero;
+    color:black;
+    margin:auto;
+    height:40px;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 100;
+    position: fixed;
+    a{
+        color:black;
+    }
+    left: 10px;
+    bottom: 40px;
+    &:active{
+        background-color:black ;
+        a{
+        color:#e69020;
+    }
+    }   
+}
+.menu{
+    margin:0 auto;
+    max-width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .tarjeta{
+        margin:10px;
+        background-color: #ffffff0c;
+        box-shadow: 0px 0px 8px rgb(26, 26, 26);
+        padding: 20px 10px;
+        width:300px;
+        .flexbox(center,center);
+        flex-direction: column;
+        border-radius: 5px;
+        text-align: center;
+        h1{
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+        p{
+            margin-bottom: 30px;
+            // min-width: 300px;
+            max-width: 80%;
+            font-size: 17px;
+            &::first-letter{
+            text-transform: uppercase;
+
+            }
+        }
+        span p{
+            color:#e69020;
+            font-size: 20px;
+            font-weight: 900;
+            min-width:100%;
+            margin-bottom: 10px;
+        }
+       
+    }
+}
+.sabores{
+    width:80%;
+    background-color: #ffffff0c;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding:0px 0;
+    box-shadow:0px 10px 10px rgba(0, 0, 0, 0.294);
+    margin: 20px auto 10px auto;
+    p{
+        font-family: @fontHero;
+        min-width: 40px;
+        margin:10px 10px;
+        padding:10px 15px;
+        background-color: #e69020;
+        color:black;
+        border-radius: 30px;
+        letter-spacing: 1px;
+        font-size: 18px;
+
+    }
+}
+@media(max-width:820px){
+    .tarjeta{
+        min-width: 80%;
+    }
+    p{
+        min-width: 80%;
+    }
+    span p{
+        min-width: 100%;
+    }
+}
+@media(max-width:465px){
+    h1{
+        font-size: 40px !important;
+    }
+    ul{
+        margin:40px !important;
+        display: block !important;
+    }
+    .tarjeta{
+        h1{
+            font-size: 30px !important;
+        }   
+    }
+}

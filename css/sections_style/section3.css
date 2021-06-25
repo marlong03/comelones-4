@@ -1,0 +1,125 @@
+.cuadro {
+  width: 240px;
+  height: 320px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #2b2b33;
+}
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  color: #e69020;
+  letter-spacing: 5px;
+}
+p {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+.subir {
+  padding: 7px 17px;
+  background-color: #e69020;
+  font-size: 30px;
+  font-family: 'Bangers', cursive;
+  color: black;
+  margin: auto;
+  height: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 100;
+  position: fixed;
+  left: 10px;
+  bottom: 40px;
+}
+.subir a {
+  color: black;
+}
+.subir:active {
+  background-color: black ;
+}
+.subir:active a {
+  color: #e69020;
+}
+.section3 {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: column;
+}
+.section3--paragraph {
+  padding: 40px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 800px;
+}
+.section3--paragraph h1 {
+  margin-bottom: 20px;
+}
+.section3--paragraph p {
+  margin-bottom: 30px;
+}
+.section3--paragraph h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: #e69020;
+}
+.section3_images {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: none;
+}
+.section3_images-container {
+  background-color: #5e5e7aab;
+  margin: 0  50px 50px 50px ;
+  width: 240px;
+  height: 320px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+.section3_images-container h1 {
+  font-size: 120px;
+  position: relative;
+  z-index: 10;
+  margin: 20px;
+}
+.section3_images-container img {
+  width: inherit;
+  position: absolute;
+  border-radius: 5px;
+  object-fit: cover;
+  height: inherit;
+  opacity: 0.3;
+}
+.section3_images-container p {
+  position: relative;
+  z-index: 10;
+  color: white;
+}
+.section3_images-container p span {
+  font-weight: 900;
+  font-size: 17px;
+  color: #ffae44;
+}
+.section3_images-container input {
+  margin-top: 10px;
+  padding: 10px 35px;
+  color: white;
+  background-color: #000000;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  border: none;
+  border-radius: 20px;
+  border: 2px solid white;
+  position: relative;
+  z-index: 20;
+}
+.section3_images-container input:hover {
+  border: 2px solid #e69020;
+}

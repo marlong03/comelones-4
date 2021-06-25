@@ -1,0 +1,59 @@
+@font1 :  'Nunito', sans-serif;
+@font2 :'Quicksand', sans-serif;
+@font3 : 'Prompt', sans-serif;
+@fontHero : 'Bangers', cursive;
+@gris : #2b2b33;
+@naranja : #e69020;
+.flexbox(@jus, @ali){
+    display: flex;
+    justify-content: @jus;
+    align-items: @ali;
+}
+.cuadro{
+    width:240px;
+    height:320px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #2b2b33;
+}
+h1{
+    font-family: @fontHero;
+    font-size: 50px;
+    color:#e69020;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 3px #2b2b33;
+}
+p{
+    font-family: @font1;
+    color:white; 
+}
+.subir{
+    padding:7px 17px;
+    background-color: #e69020;
+    font-size: 30px;
+    font-family: @fontHero;
+    color:black;
+    margin:auto;
+    height:40px;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 100;
+    position: fixed;
+    a{
+        color:black;
+    }
+    left: 10px;
+    bottom: 40px;
+    &:active{
+        background-color:black ;
+        a{
+        color:#e69020;
+    }
+    }   
+}

@@ -1,0 +1,106 @@
+.cuadro {
+  width: 240px;
+  height: 320px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #2b2b33;
+}
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  color: #e69020;
+  letter-spacing: 5px;
+}
+p {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+.subir {
+  padding: 7px 17px;
+  background-color: #e69020;
+  font-size: 30px;
+  font-family: 'Bangers', cursive;
+  color: black;
+  margin: auto;
+  height: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 100;
+  position: fixed;
+  left: 10px;
+  bottom: 40px;
+}
+.subir a {
+  color: black;
+}
+.subir:active {
+  background-color: black ;
+}
+.subir:active a {
+  color: #e69020;
+}
+.footer {
+  background: linear-gradient(#2b2b33, #111111);
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 3%;
+}
+.footer .contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer .contacto .botones-footer {
+  margin-top: 30px;
+}
+.footer .contacto h1 {
+  margin-bottom: 30px;
+}
+.footer .contacto p span {
+  font-family: 'Quicksand', sans-serif;
+  color: #e69020;
+  font-weight: 900;
+  font-size: 18px;
+}
+.footer .contacto p {
+  font-size: 22px;
+  font-weight: 900;
+}
+.footer .contacto div img {
+  padding: 5px;
+  width: 40px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+.footer .contacto div img:hover {
+  border: 2px solid #e69020;
+}
+.footer .pagos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer .pagos div img {
+  width: 240px;
+  border-radius: 150%;
+}
+@media (max-width: 644px) {
+  .pagos div {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

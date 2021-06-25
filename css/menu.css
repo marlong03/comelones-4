@@ -1,0 +1,181 @@
+.cuadro {
+  width: 240px;
+  height: 320px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #2b2b33;
+}
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  color: #e69020;
+  letter-spacing: 5px;
+}
+p {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+.header {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+}
+.header__logo img {
+  width: 60px;
+  margin: 40px 60px;
+}
+.header .hamburguesa {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.header .hamburguesa img {
+  margin: 40px 60px;
+  width: 40px;
+}
+.header__menu ul {
+  display: flex;
+  margin: 60px 60px;
+}
+.header__menu ul a {
+  color: white;
+  list-style: none;
+  margin: 0 20px;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  outline: none;
+}
+.header__menu ul a:hover {
+  color: #e6c338;
+}
+.section1 {
+  background: url(./src/images/comelonesfhotos/fondocomelones.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+}
+.section1 .container_paragraph {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .container_paragraph h1 {
+  font-size: 70px;
+  font-family: 'Bangers', cursive;
+  color: white;
+  letter-spacing: 5px;
+  padding: 20px;
+}
+.menu__comida {
+  display: flex;
+  justify-content: none;
+  align-items: none;
+  flex-wrap: wrap;
+}
+.subir {
+  padding: 7px 17px;
+  background-color: #e69020;
+  font-size: 30px;
+  font-family: 'Bangers', cursive;
+  color: black;
+  margin: auto;
+  height: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 100;
+  position: fixed;
+  left: 10px;
+  bottom: 40px;
+}
+.subir a {
+  color: black;
+}
+.subir:active {
+  background-color: black ;
+}
+.subir:active a {
+  color: #e69020;
+}
+.container {
+  position: relative;
+  width: 250px;
+  margin: 20px;
+  background-color: #e69020;
+}
+.paragraph img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #e69020;
+}
+.paragraph {
+  background-color: #e69020;
+  width: 100%;
+}
+.paragraph h3 {
+  margin-bottom: 5px;
+}
+.paragraph p {
+  margin: 5px 10px;
+  color: red;
+}
+.paragraph h1 {
+  font-size: 30px;
+}
+.footer {
+  background: linear-gradient(#2b2b33, #111111);
+  height: 300px;
+}
+.footer .contacto {
+  padding-top: 70px;
+  margin: 0 70px ;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+}
+.footer .contacto div a img {
+  padding: 10px 10px;
+  background-color: #000000;
+  border: none;
+  border-radius: 40px;
+  border: 2px solid white;
+  width: 40px;
+  margin: 10px;
+}
+.footer .contacto div a img:hover {
+  border: 2px solid #e69020;
+}
+.footer .contacto h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+.footer .contacto p {
+  font-size: 18px;
+  font-weight: 900;
+}
+.footer .contacto p span {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  color: #e69020;
+}
+.footer .contacto img {
+  width: 150px;
+}

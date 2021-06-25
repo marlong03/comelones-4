@@ -1,0 +1,132 @@
+@import url(./less/sections_style/vars.less);
+@media (max-width:1200px){
+    .section4{
+        .img42{
+            display:none;
+        }
+    }
+}
+@media(max-width:1100px){
+    .section4{
+        &--images{
+            img{
+                margin:10px;
+                width:160px !important;
+                height:250px !important;
+            }
+        }
+    }
+    .section2{
+        .fondo{
+            &--cuadrado2{
+                margin-top: 500px;
+            }
+        }
+        &--principal{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            }
+            img{
+                max-width:300px;
+                border-radius: 10px;
+            }
+        }    
+    }
+@media only screen and (max-width:680px){
+    .section1{
+        img{
+            filter:brightness(80%);
+            height:100vh;
+        } 
+        align-items: center;
+        div{
+            margin-left: 0;
+            border-radius: 20px;
+            text-align: center;
+            h1{
+                margin-top: 0px;
+            }
+            p{
+                margin:30px auto 60px auto;
+                width:86%;
+           }
+        }
+    }
+    .header{
+        &__logo{
+            img{
+                margin: 30px 20px;
+            }
+        }
+        .header__menu ul{
+            margin:20px 20px;
+            display: block;
+            text-align: right;
+            li{
+                font-size: 20px;
+                color:rgb(255, 255, 255);
+                &:hover{
+                color:#e69020;
+                }
+            }
+        }
+    }
+    .section2{
+        .menu-comidas{
+           min-width: 290px;
+        }
+    }
+    .section3{
+        p{
+            text-align: center;
+        }
+        &_images{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    .section4{
+        &--fondo{
+            .img42{
+                display: none;
+            }
+        }
+        &--images{
+            align-items: center;
+            img{
+                margin:10px;
+            }
+        }
+    }
+   
+}
+@media (max-width:736px){
+    .section4{
+        &--fondo{
+            height:155%;
+        }
+    }
+    .footer{
+        .contacto{
+            .logo{
+                width:100px;
+            }
+        }
+    }
+    
+}
+@media(max-width:500px){
+    .footer{
+        .contacto{
+            .flexbox(center , center);
+            .logo{
+                display: none;
+            }
+        }
+    }
+}
+

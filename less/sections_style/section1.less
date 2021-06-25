@@ -1,0 +1,49 @@
+@import url(./vars.less);
+.section1{
+    height:100vh;
+    flex-direction: column;
+    .flexbox(center , flex-start);
+    img{
+        position: absolute;
+        object-fit: cover;
+        width:98.7vw;  //------------------cambiar
+        height:100vh;  
+        filter:brightness(90%);
+    }
+    div{
+        position: relative;
+        z-index: 100;
+        margin-left: 60px;
+        margin-top: 50px; 
+       }
+    h1{
+        color:#e69020;
+        font-size: 70px;
+        font-family: @fontHero;
+        letter-spacing: 5px;
+        margin-bottom: 10px;
+        padding:10px;
+    }
+    p{
+        width:50%;
+        font-family: @font1;
+        color:white; 
+        margin-bottom: 40px;
+    }
+    a{
+        padding:10px;
+        list-style: none;
+        color:white;
+        font-family: @font2;
+        font-weight: 900; 
+        font-size: 17px;
+        letter-spacing: 3px;
+        text-decoration:none;
+        &:hover{
+            color:#e69020;
+        }
+        span{
+            color:white;
+        }
+    }
+}

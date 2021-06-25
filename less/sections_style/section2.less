@@ -1,0 +1,80 @@
+@import url(./vars.less);
+.section2{
+    .fondo{
+        height:550px;
+        .flexbox(space-between,none);
+        position:absolute;
+        width:80vw;
+        &--cuadrado{
+            width:400px;
+            height:200px;
+            background-color: #e69020;
+            transform:rotate(45deg);
+            border-radius: 10px;
+            margin-top: 50px;
+            filter: blur(1px);
+            position:static;
+        }
+        &--cuadrado2{
+            width:350px;
+            height:370px;
+            background-color: #aaaaaa;
+            transform:rotate(30deg);
+            border-radius: 20%;
+            margin-top: 100px;
+            filter: blur(3px);
+        }
+    }
+    &--principal{
+        position: relative;
+        z-index: 10;
+        padding:60px;
+        display: flex; 
+        img{
+            width:300px;
+            height:360px;
+            object-fit: cover;
+            border-radius:5px;
+        }
+        .menu-comidas{
+                margin:20px 30px; 
+                max-width:400px;
+                text-align: center;
+                background-color: rgba(92, 92, 92, 0.246);
+                padding:40px 20px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px rgba(17, 17, 17, 0.678);;
+                h1{
+                    font-family: @fontHero;
+                    font-size: 50px;
+                    color:#e69020;
+                    letter-spacing: 5px;
+                    margin-bottom: 30px;
+                }
+                p{
+                    span{
+                    }
+                    font-weight: 900 !important;
+                    color:white;
+                    font-family: @font1;
+                    margin-bottom: 30px;
+                }
+                a{
+                    padding:10px 35px;
+                    color:white;
+                    background-color: #000000;
+                    font-family: @font2;
+                    font-weight: 800;
+                    border:none;
+                    border-radius: 20px;
+                    border:2px solid white;
+                    position: relative;
+                    z-index:20;
+                    text-decoration: none;
+                    &:hover{
+                    border:2px solid #e69020;
+                    }
+                }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@import url(./vars.less);
+.section6{
+    // h1{
+    //     color:white;
+    // }
+    .flexbox(center , center);
+    flex-direction: column;
+    background:linear-gradient(#2b2b33 , #2b2b33);
+    .galeria{
+        border:2px solid @naranja;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        max-width: 75%;
+        background-color: #ffffff18;
+        border-radius: 5px;
+        .flexbox(center , none);
+        padding:20px 0;
+        box-shadow: 0px 0px  20px black;
+        img{
+            margin:10px ;
+            border-radius: 5px;
+            width:250px;
+            height:200px;
+            object-fit: cover;
+            box-shadow: 0px 0px  10px #242424;
+
+            &:hover{
+                filter: brightness(80%);
+            }
+        }
+        .fonde{
+            position: relative;
+            top:100px;   
+        }
+    }
+}

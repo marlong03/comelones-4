@@ -1,0 +1,98 @@
+@import url(../sections_style/vars.less);
+.menu__comida{
+    .flexbox(center,none);
+    flex-wrap: wrap;
+}
+
+.container-food{
+    position: relative;
+    width:300px;
+    margin:10px;
+    height:300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    filter: brightness(90%);
+    border-radius: 5px;
+    position: relative;
+    border:3px solid #ffffff;
+    .flexbox(center,center);
+    h1{
+        margin-top: 200px;
+        background-color: #e69020;
+        position: relative;
+        z-index: 20;
+        color:#000000;
+        text-shadow: none;
+    }
+    &:hover{
+        border:3px solid #e69020;
+        h1{
+        background-color: #000000;
+        color:#e69020;
+        }
+    }
+}
+a{
+    text-decoration: none;
+}
+.container-hamburguesa{
+   .container-food;
+   background-image: url(./src/images/comelonesfhotos/hamb_ult.png);
+}
+.container-crepes{
+    .container-food;
+    background-image: url(./src/images/comelonesfhotos/crepes__carnes.png);
+}
+ .container-burritos{
+    .container-food;
+    background-image: url(./src/images/comelonesfhotos/burrito.png);
+}
+.container-salchipapas{
+    .container-food;
+    background-image: url(./src/images/comelonesfhotos/salchipapa.png);
+}
+ .container-quesadillas{
+     .container-food;
+     background-image: url(./src/images/comelonesfhotos/quesadilla.png);
+}
+  .container-patacones{
+     .container-food;
+     background-image: url(./src/images/comelonesfhotos/patacon.png);
+}
+.container-perros{
+    .container-food;
+    background-image: url(./src/images/comelonesfhotos/perro.png);
+}
+.container-carnes{
+    .container-food;
+    background-image: url(./src/images/comelonesfhotos/parrillada.png);
+}
+.container-arepas{
+    .container-food;
+    background-image: url(./src/images/comelonesfhotos/arepa.png);
+}
+.container-mazorcadas{
+    .container-food;
+    background-image: url(./src/images/comelonesfhotos/mazorcada.png);
+}
+.container-crepes-dulces{
+    .container-food;
+    background-image: url(./src/images/comelonesfhotos/frutas.png);
+}
+.container-bebidas{
+    .container-food;
+    background-image: url(./src/images/bebida.png);
+}
+.container-fruteria{
+    .container-food;
+    background-image: url(./src/images/frutas.png);
+}
+.container-adiciones{
+    .container-food;
+    background-image: url(./src/images/papas.png);
+}
+.container-infantil{
+    .container-food;
+    background-image: url(./src/images/marvel.png);
+}

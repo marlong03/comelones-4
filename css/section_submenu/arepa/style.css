@@ -1,0 +1,8 @@
+/* @import url(../../sections_style/vars.less);
+@import url(../../sections_style/header.less);
+@import url(../../sections_style/section1.less);
+@import url(../../sections_style/menuComidas.less);
+@import url(../../sections_style/footer.less); */
+body {
+  background-color: red;
+}
